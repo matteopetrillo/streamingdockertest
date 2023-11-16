@@ -1,6 +1,7 @@
 version: '3'
 services:
   rtmp:
+    image: tiangolo/nginx-rtmp
     build: ./rtmp
     ports:
       - "1935:1935"
